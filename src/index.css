@@ -1,3 +1,214 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Mont;
+    src: url("assets/mont/Mont-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: MontThin;
+    src: url("assets/mont/Mont-Thin.otf") format("opentype");
+}
+
+@layer {
+    html {
+        @apply text-dark-blue;
+    }
+
+    .font-corner-title {
+        font-size: 29px;
+        line-height: 35px;
+    }
+    .font-link-title {
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+    .font-h1 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .font-h2 {
+        font-size: 19px;
+        line-height: 25px;
+        text-transform: uppercase;
+    }
+    .font-h3 {
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+    .font-button-1 {
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+    }
+    .font-button-2 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .font-text-1 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .font-text-2 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .font-discount-text {
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+        text-decoration: line-through;
+    }
+    .font-news-text {
+        font-size: 12px;
+        line-height: 16px;
+        font-family: MontThin;
+    }
+    .font-numeric-1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .font-numeric-2 {
+        font-size: 16px;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+    .font-caption {
+        font-size: 8px;
+        line-height: 10px;
+        font-family: MontThin;
+    }
+
+    @media (min-width: 640px) {
+        .font-corner-title {
+            font-size: 44px;
+            line-height: 53px;
+        }
+        .font-link-title {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .font-h1 {
+            font-size: 44px;
+            line-height: 44px;
+        }
+        .font-h2 {
+            font-size: 33px;
+            line-height: 40px;
+        }
+        .font-h3 {
+            font-family: MontThin;
+            font-size: 33px;
+            line-height: 43px;
+        }
+        .font-h4 {
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+        }
+        .font-button-1 {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .font-button-2 {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .font-text-1 {
+            font-size: 22px;
+            line-height: 29px;
+        }
+        .font-text-2 {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .font-discount-text {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .font-news-headline {
+            font-size: 16px;
+            line-height: 21px;
+        }
+        .font-news-text {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .font-numeric-1 {
+            font-size: 78px;
+            line-height: 78px;
+        }
+        .font-caption {
+            font-size: 10px;
+            line-height: 13px;
+        }
+    }
+
+    @media (min-width: 1600px) {
+        .font-corner-title {
+            font-size: 63px;
+            line-height: 64px;
+        }
+        .font-link-title {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .font-h1 {
+            font-size: 39px;
+            line-height: 47px;
+        }
+        .font-h2 {
+            font-size: 39px;
+            line-height: 51px;
+            font-family: MontThin;
+        }
+        .font-h3 {
+            font-size: 15px;
+            line-height: 20px;
+            font-family: Mont;
+        }
+        .font-button-1 {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        .font-button-2 {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        .font-text-1 {
+            font-size: 24px;
+            line-height: 31px;
+        }
+        .font-text-2 {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .font-discount-text {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        .font-news-headline {
+            font-size: 22px;
+            line-height: 29px;
+        }
+        .font-news-text {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .font-numeric-1 {
+            font-size: 84px;
+            line-height: 84px;
+        }
+        .font-numeric-2 {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .font-caption {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+}
